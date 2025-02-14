@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.text {
+  margin-top: 10px;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#box {
+  display: flex;
+  flex-direction: column;
+  border-radius: 7px;
+  background-color: rgb(241, 237, 237);
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.i {
+  width: 350px;
+  height: 50px;
+  border-radius: 7px;
+  margin-top: 10px;
+  border: none;
+  padding: 0 10px;
+}
+#id {
+}
+
+#pw {
+  width: 350px;
+  height: 50px;
+  border-radius: 7px;
+  margin-top: 10px;
+}
+
+#pw_c {
+  width: 350px;
+  height: 50px;
+  border-radius: 7px;
+  margin-top: 10px;
+}
+
+#bday {
+  width: 350px;
+  height: 50px;
+  border-radius: 7px;
+  margin: 10px 0;
+}
+
+.btn {
+  display: flex;
+  margin: 10px 0;
+  height: 50px;
+}
+
+#sub {
+  border-radius: 7px;
+  color: white;
+  font-weight: bold;
+  flex: 60%;
+  background-color: rgb(212, 39, 39);
+  border: none;
+}
+
+#cancel {
+  border-radius: 7px;
+  flex: 40%;
+  margin-left: 10px;
+  background-color: white;
+  border: none;
+}
